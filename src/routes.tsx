@@ -5,8 +5,9 @@ import {
   Route,
   Navigate
 } from "react-router-dom";
-import Agents from './pages/Agents';
 
+import Agent from './pages/Agent';
+import Agents from './pages/Agents';
 
 const Routess: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const Routess: React.FC = () => {
       <Routes>
         <Route path='*' element={<Navigate to="/agents" />} />
         <Route path="/agents" element={<Agents />} />
-        <Route path="/agents/:id" element={<h1>agent especifico</h1>} />
+        <Route path="/agent/:id" element={<Agent />} />
       </Routes>
     </BrowserRouter>
   )

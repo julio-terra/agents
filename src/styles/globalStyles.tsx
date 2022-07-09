@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
     --secondary: #1F2326;
     --search: #202327;
     --white: #D9D9D9;
+    --drug-white: #C4C4C4;
     --gray: #7A7A7A;
     --outline: #2F3336;
   }

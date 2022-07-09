@@ -18,7 +18,8 @@ export const Container = styled.div`
 `;
 export const Logo = styled.div`
     display: flex;
-    align-items:center ;
+    align-items:center;
+    cursor: pointer;
     img{
         height: 30px;
     }

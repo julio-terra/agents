@@ -1,0 +1,14 @@
+@media(max-width: 576px){
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+}
+@media(max-width: 576px){
+  .slick-slider{
+    overflow: hidden;
+  }
+}
+.slick-slider{
+  justify-content: start!important;
+}
